@@ -66,7 +66,7 @@ public class HelloServerTest {
 
     @Bean
     @Primary
-    public PrintStream getPrintstream() {
+    public PrintStream getPrintStream() {
       return new PrintStream(outputStream);
     }
   }
